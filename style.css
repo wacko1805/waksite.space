@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@00&display=swap');
+@font-face {
+    font-family: biko-reg;
+    src: url(Biko_Regular.otf);
+  }
+
+  @font-face {
+    font-family: biko-bl;
+    src: url(Biko_Black.otf);
+  }
+  @import url('https://scrollhunt.pixel-fy.com/bars/2/bar.css');
+  @import url('https://unicons.iconscout.com/release/v3.0.6/css/line.css');
 body {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: biko-reg;
     margin: 0;
+    background-color: white;
 }
 
 * {
@@ -43,7 +53,6 @@ padding: 45% 0;
 .center p {
 color: #a6a6a4;
 font-size: 20px;
-font-weight: 600;
 text-align: center;
 
 }
@@ -98,7 +107,6 @@ header h1 {
     header p {
     color: #a6a6a4;
     font-size: 20px;
-    font-weight: 600;
     text-align: center;
     }
 
@@ -138,7 +146,6 @@ header h1 {
     .main p {
         font-size: 20px;
         color: #a6a6a4;
-        font-weight: 600;
     }
     .main a{
         font-size: 25px;
@@ -173,4 +180,13 @@ header h1 {
     text-decoration: none;
     color: #9a8194;
     transition: 0.3s;
+}
+
+.uil  {
+    font-size: 30px;
+    font-weight: 200;
+    color: #9a8194;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
