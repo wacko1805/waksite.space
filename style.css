@@ -8,9 +8,13 @@
     src: url(Biko_Black.otf);
   }
   @import url('https://scrollhunt.pixel-fy.com/bars/2/bar.css');
-  @import url('https://unicons.iconscout.com/release/v3.0.6/css/line.css');
-body {
-    font-family: biko-reg;
+  @font-face {
+    font-family: biko-regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url(Biko_Regular.otf) format('otf');
+  }body {
+    font-family: biko-regular;
     margin: 0;
     background-color: white;
 }
