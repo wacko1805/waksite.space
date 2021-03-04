@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-  @font-face {
+@font-face {
     font-family: biko-regular;
     font-style: normal;
     font-weight: 400;
-    src: url(Biko_Regular.otf) format('otf');
-  }body {
-=======
-  @import url('https://unicons.iconscout.com/release/v3.0.6/css/line.css');
+    src: url(biko/Biko_Regular.otf) format('otf');
+  }
 body {
->>>>>>> 738a55cd542596571bc1cb142323e283a0531e19
     font-family: biko-regular;
     margin: 0;
     background-color: white;
