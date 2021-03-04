@@ -1,19 +1,14 @@
-@font-face {
-    font-family: biko-reg;
-    src: url(Biko_Regular.otf);
-  }
-
-  @font-face {
-    font-family: biko-bl;
-    src: url(Biko_Black.otf);
-  }
-  @import url('https://scrollhunt.pixel-fy.com/bars/2/bar.css');
+<<<<<<< HEAD
   @font-face {
     font-family: biko-regular;
     font-style: normal;
     font-weight: 400;
     src: url(Biko_Regular.otf) format('otf');
   }body {
+=======
+  @import url('https://unicons.iconscout.com/release/v3.0.6/css/line.css');
+body {
+>>>>>>> 738a55cd542596571bc1cb142323e283a0531e19
     font-family: biko-regular;
     margin: 0;
     background-color: white;
