@@ -1,12 +1,7 @@
-@font-face {
-    font-family: biko-regular;
-    font-style: normal;
-    font-weight: 400;
-    src: url(Biko_Regular.otf) format('otf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 body {
-    font-family: biko-regular;
-    margin: 0;
+    font-family: 'Ramabhadra', sans-serif;
+            margin: 0;
     background-color: white;
 }
 
